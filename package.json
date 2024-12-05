@@ -1,10 +1,9 @@
 {
-    "name":   "com.Simgenics.3DPact-Engineersatation",
-    "version":  "0.0.1",
-    "displayName":  "3DPact Engineer Satation",
-    "description":  "A test of getting the packige frow github",
+    "name": "com.Simgenics.3DPact-Engineersatation",
+    "version": "0.0.1",
+    "displayName": "3DPact Engineer Satation",
+    "description": "A test of getting the packige frow github",
     "license": "MIT",
-    "unity": "2022.3",
     "documentationUrl": "https://example.com/",
     "changelogUrl": "https://example.com/changelog.html",
     "licensesUrl": "https://example.com/licensing.html",
@@ -12,11 +11,20 @@
         "com.unity.modules.physics": "1.0.0",
         "com.unity.modules.physics2d": "1.0.0"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Simgenics/3pd_Engineer_Test.git"
+    },
     "author": {
         "name":  "Test",
         "email":   "test@simgenics.com",
         "url":  "https://example.com/",
     },
+    "keywords": [
+        "upm",
+        "git",
+        "editor"
+    ],
     "samples": [
         {
             "displayName": "HDRP Shaders",
