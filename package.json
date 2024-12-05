@@ -1,7 +1,7 @@
 {
     "name": "com.simgenics.engineerstation",
-    "version": "0.0.5",
-    "displayName": "3DPact Engineer Satation",
+    "version": "0.0.6",
+    "displayName": "3DPact Engineer Station",
     "description": "A test of getting the packige frow github",
     "license": "MIT",
     "keywords": [
