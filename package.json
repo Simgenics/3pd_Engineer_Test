@@ -4,6 +4,11 @@
     "displayName": "3DPact Engineer Satation",
     "description": "A test of getting the packige frow github",
     "license": "MIT",
+    "keywords": [
+        "upm",
+        "git",
+        "editor"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/Simgenics/3pd_Engineer_Test.git"
@@ -13,11 +18,6 @@
         "email":   "test@simgenics.com",
         "url":  "https://example.com/",
     },
-    "keywords": [
-        "upm",
-        "git",
-        "editor"
-    ],
     "samples": [
         {
             "displayName": "HDRP Shaders",
