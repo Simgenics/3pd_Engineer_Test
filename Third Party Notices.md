@@ -1,0 +1,1 @@
+this is for the third party lecal and licine locations 
