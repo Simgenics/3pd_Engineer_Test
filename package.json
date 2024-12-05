@@ -13,11 +13,6 @@
         "type": "git",
         "url": "https://github.com/Simgenics/3pd_Engineer_Test.git"
     },
-    "author": {
-        "name":  "Test",
-        "email":   "test@simgenics.com",
-        "url":  "https://example.com/",
-    },
     "samples": [
         {
             "displayName": "HDRP Shaders",
