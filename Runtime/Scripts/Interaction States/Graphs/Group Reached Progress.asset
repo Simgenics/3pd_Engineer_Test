@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Group Reached Progress
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Enter","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":"","$type":"System.String"},"_type":"System.String","key":"GroupStateToReach","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"ProgressStateTrackerGroup","key":"ProgressGroup","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"System.Boolean","key":"Reached","label":null,"summary":null,"hideLabel":false}],"title":"Group
+      Reached Progress","summary":null,"pan":{"x":0.0,"y":-15.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":193.0,"y":-102.0},"guid":"e2931b06-e91f-4202-ba4c-6a2abc682402","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"13"},{"defaultValues":{},"position":{"x":-439.0,"y":-122.0},"guid":"d37295ed-fb6f-4e09-9ea9-76fedfaeced1","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"15"},{"chainable":false,"parameterNames":[],"member":{"name":"GetGroupStateName","parameterTypes":[],"targetType":"ProgressStateTrackerGroup","targetTypeName":"ProgressStateTrackerGroup","$version":"A"},"defaultValues":{"target":null},"position":{"x":-219.0,"y":-26.0},"guid":"e36fb7bd-4ebe-423a-9a71-bd33f3146372","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"chainable":false,"parameterNames":["a","b"],"member":{"name":"Equals","parameterTypes":["System.String","System.String"],"targetType":"System.String","targetTypeName":"System.String","$version":"A"},"defaultValues":{"%a":{"$content":"","$type":"System.String"},"%b":{"$content":"Unlocked","$type":"System.String"}},"position":{"x":34.0,"y":-123.0},"guid":"eb34ada7-0aa3-4712-b77e-c37797928a73","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"21"},"destinationKey":"%b","guid":"1e827423-923e-4289-916f-59f730c8014b","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"result","destinationUnit":{"$ref":"13"},"destinationKey":"Reached","guid":"c26a4c74-37d7-4f95-9715-99c1a7b6161d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"ProgressGroup","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"0779b081-1ed4-4754-97e0-8d434970b545","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"GroupStateToReach","destinationUnit":{"$ref":"21"},"destinationKey":"%a","guid":"e0941ba7-f4eb-426c-8fdb-1f993b8bf46c","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

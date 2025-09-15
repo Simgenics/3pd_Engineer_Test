@@ -1,0 +1,574 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86d89e6d2b86b24cadf837c387eaa16, type: 3}
+  m_Name: TSetup
+  m_EditorClassIdentifier: 
+  clothingSets:
+  - setName: Cleaning Suit
+    allocation: 0000000001000000020000000600000007000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100332, guid: 569ca224739067042b59dd1efce9df7a, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100332, guid: 2f7ca1fb2ca7cae49913de38cfd0c609, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100332, guid: d5410fe2e40bc1e4b86a1ae94ac6f794, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100332, guid: bcc3fedc72c50fb4dacede01ef8cc782, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100332, guid: 92848de43ecfb4d4b86d8fe6cb3297ce, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100332, guid: dc17996c705c62347a37ae885150f45a, type: 3}
+      condition: 5
+      equipped: 0
+    - item: {fileID: 100332, guid: 8f0275fe6e7050d4984abe0762066da6, type: 3}
+      condition: 6
+      equipped: 0
+  - setName: Cleaning Suit
+    allocation: 0000000001000000020000000600000007000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100330, guid: 6d395f31ac8c58a42bbbeafa8a0cfe07, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100330, guid: 0e0ac5c0b87bde54287cbb4688afdc34, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100330, guid: 45d24009535871048a340b3e9285ea5a, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100330, guid: 81918f544dfb98a4ba91ca65d9910a40, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100330, guid: 4a714eae02424a34aab4d3b19c76e7f2, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100330, guid: 3ecb174076e66b04b950493390aab1c1, type: 3}
+      condition: 5
+      equipped: 0
+    - item: {fileID: 100330, guid: 33e7d0e5d28ff954ca207a7dc4f459de, type: 3}
+      condition: 6
+      equipped: 0
+  - setName: Chemical Suit
+    allocation: 000000000100000002000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100332, guid: a8a0a1e6045851f45baa0b059a43c6e9, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100332, guid: c9a075b4c4d53f5489182903d0f3f4ef, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100332, guid: 7d27eaf3ca4e843459e1e85fc64f7863, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100332, guid: 1bc6fe0822694ee49b5f8e7331ecb628, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100332, guid: 5a0025246f1d76a4a8aa135a5d36307f, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100332, guid: 3d1a25731784e6f4fbe10dbde1cdf6a5, type: 3}
+      condition: 5
+      equipped: 0
+  - setName: Chemical Suit
+    allocation: 000000000100000002000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100330, guid: c4c6207063b35764391d3bf924059f7a, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100330, guid: d63f111a559a43c48ab3d36b77b5c763, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100330, guid: b6c1d1ff62db4254e9c8ea53b322af42, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100330, guid: 274759cfeb6a2f84e811a3a44041a7a4, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100330, guid: af5948dcf359ed44b9d5fafec5b687e2, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100330, guid: ab7a31a4acf2ca04d8d128e588421742, type: 3}
+      condition: 5
+      equipped: 0
+  - setName: Fire Suit
+    allocation: 00000000010000000200000006000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100332, guid: e646fe8397c6042428d88e41dd5fc645, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100332, guid: 7dbf2f81c4295fb4e928bc33dd5a443b, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100332, guid: c628960d50f9c8b49816ce7918980a36, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100332, guid: c04bf2084fc26f24691ab9d56b6d9fda, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100332, guid: bdc6ebe9024f21a489b3ad276e5edb5f, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100332, guid: b675af4364fe5d34587971ddb2b0293c, type: 3}
+      condition: 5
+      equipped: 0
+  - setName: Fire Suit
+    allocation: 00000000010000000200000006000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100332, guid: cec24464b6223c94aa9da4abac196827, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100332, guid: cec24464b6223c94aa9da4abac196827, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100332, guid: cec24464b6223c94aa9da4abac196827, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100332, guid: cec24464b6223c94aa9da4abac196827, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100332, guid: cec24464b6223c94aa9da4abac196827, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100332, guid: cec24464b6223c94aa9da4abac196827, type: 3}
+      condition: 5
+      equipped: 0
+  - setName: Flash Suit
+    allocation: 00000000010000000200000003000000040000000500000006000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100332, guid: 22d4ae6132f639248abd280162e8dfd5, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100332, guid: 52c767871ba93ab4ba7359253b0c1039, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100332, guid: 9686ca784e28faf44ad36153208c3d6a, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100332, guid: 505f8109a480776469e4d463faa21f2b, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100332, guid: 8151b15379a691848ad2d30add96b49b, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100332, guid: a9361c226d180de469e6da1eeb7280da, type: 3}
+      condition: 5
+      equipped: 0
+  - setName: Flash Suit
+    allocation: 00000000010000000200000003000000040000000500000006000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100330, guid: 56b84ba101666ed47bb6dd6eb81ad646, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100330, guid: 56b84ba101666ed47bb6dd6eb81ad646, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100330, guid: 56b84ba101666ed47bb6dd6eb81ad646, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100330, guid: 56b84ba101666ed47bb6dd6eb81ad646, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100330, guid: 56b84ba101666ed47bb6dd6eb81ad646, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100330, guid: 56b84ba101666ed47bb6dd6eb81ad646, type: 3}
+      condition: 5
+      equipped: 0
+  - setName: One-piece Suit
+    allocation: 00000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100340, guid: eb6ca372aa6944c42ab8ce77fb0af3c7, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100340, guid: 84dd850072798294abd4640c1f528aef, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100340, guid: 8175f1c07e9d3724ab5814e65235367f, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100340, guid: 4cd3c1b8bd426df49b34ff38171bc9c1, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100340, guid: 43ec7b8597b62664ca1ee6a6a1f0b358, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100340, guid: bc7cba5d108834141835a6c7f858eabe, type: 3}
+      condition: 5
+      equipped: 0
+    - item: {fileID: 100340, guid: 7c9b55670cbe4b540bc6416d077adf8f, type: 3}
+      condition: 6
+      equipped: 0
+  - setName: One-piece Suit
+    allocation: 00000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100330, guid: 1f7c46b0a877ff7458ffdf78ef4ee94a, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100330, guid: 36d152c67404b894380bc6dbbb66c3d1, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100330, guid: 2bdb104122ff5f64190418a6cb6bc5e3, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100330, guid: c88f1911fd09c5444ba4539f493197ec, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100330, guid: 615999d1e48b62f48a61f37a2b8a0dbf, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100330, guid: 1f7c46b0a877ff7458ffdf78ef4ee94a, type: 3}
+      condition: 5
+      equipped: 0
+    - item: {fileID: 100330, guid: 7fbc43ceda5584e478df895243fbabcb, type: 3}
+      condition: 6
+      equipped: 0
+  - setName: Two-piece Suit
+    allocation: 00000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100342, guid: 3a941f4d5b057af4ca6c26500a3601e5, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100342, guid: 4e7415bebe326a742bf971e58af538b6, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100342, guid: 0d55fe825f091af4abbdd3bf1e70b427, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100342, guid: e5a73d4251fd4b54f845711f0bcab7ac, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100342, guid: 1657561dcccd22347b702b81a90324e2, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100342, guid: e2ac072e385ff304a9ac16d7e8348efd, type: 3}
+      condition: 5
+      equipped: 0
+    - item: {fileID: 100342, guid: 7cc39506465c29c4dae27ad4870497bf, type: 3}
+      condition: 6
+      equipped: 0
+  - setName: Two-piece Suit
+    allocation: 00000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100330, guid: fe51e467a47c0fc44acfea88682b754d, type: 3}
+      condition: 0
+      equipped: 0
+    - item: {fileID: 100330, guid: a7a4bcd40adbe464db28bac6c6ddb22e, type: 3}
+      condition: 1
+      equipped: 0
+    - item: {fileID: 100330, guid: b091eed844cb1ff4483f25e4b9a037fa, type: 3}
+      condition: 2
+      equipped: 0
+    - item: {fileID: 100330, guid: ded38bf0ecf71c24e8986fc17f5a3dbe, type: 3}
+      condition: 3
+      equipped: 0
+    - item: {fileID: 100330, guid: 7158a519b098f2c489ae691399b7857a, type: 3}
+      condition: 4
+      equipped: 0
+    - item: {fileID: 100330, guid: 8a43479b55a41224d86313ac06024bfa, type: 3}
+      condition: 5
+      equipped: 0
+    - item: {fileID: 100330, guid: 2b44c58d09913ae43aaf28471ed81134, type: 3}
+      condition: 6
+      equipped: 0
+  - setName: Dust Mask
+    allocation: 05000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: bd0d54350cf15b049ab3b3f6dde1821a, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Dust Mask
+    allocation: 05000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 2ec61600f7451a847b2e7e4716c64c40, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Ear Plugs
+    allocation: 03000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 78b89f3bae9aabc4181733c5307dd20a, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Ear Plugs
+    allocation: 03000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: ac559453246467d459e9c278ae099259, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Face Shield
+    allocation: 02000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 2f66e60cdbd284e4e941d38575a9a19c, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Face Shield
+    allocation: 02000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: ec6fea6c8a480194c8b30e69df866df2, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Full Face Mask
+    allocation: 020000000400000005000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 947f446158821a7479c24f400432175d, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Full Face Mask
+    allocation: 020000000400000005000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100328, guid: 4012a6d45352e71448991dfa6d1ccb9b, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Hardhat
+    allocation: 02000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: b142ac488ebb3c544a1e1c19efa2bf06, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Hardhat
+    allocation: 02000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: bb38bf6c9fd969f4fb53e383a339f5ff, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Hardhat With Earmuffs
+    allocation: 0200000003000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 3fdc9993b5b193c4e8457ec8db05616b, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Hardhat With Earmuffs
+    allocation: 0200000003000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100328, guid: c13ec7b87b4a16d4891524109a4d2b28, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Harness
+    allocation: 01000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: c3c5c8ebc8a13c348a84e8b051205934, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Harness
+    allocation: 01000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 0c800a80f313c3f429b845914c6f8ec1, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Earmuffs
+    allocation: 0200000003000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 8be49ad43dd0d1f4c837320685a3c167, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Earmuffs
+    allocation: 0200000003000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 9737ba03db5254b45844854c7d54ca51, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Reflective Bib
+    allocation: 01000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100340, guid: 1e9bd0718df60d945bd3cbd4b944de72, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Reflective Bib
+    allocation: 01000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 8d329689b1e84454a86b873a138ca3df, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Rigger Gloves
+    allocation: 06000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 98edaba806ec93646be5bfd75a7c356f, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Rigger Gloves
+    allocation: 06000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: dae60f3140c8d9f48b0c0e2e001e57e4, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Glasses
+    allocation: 04000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100340, guid: 83e10ccc1140eb0449fa696cb8ef1cf7, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Glasses
+    allocation: 04000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 2c11c5d812e9dac4793cffec86d30eef, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Goggles
+    allocation: 04000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100340, guid: 9d91d933ead689741a9234facb66f450, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Goggles
+    allocation: 04000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 387774aac447a9342b8a39ed62146e34, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Shoes
+    allocation: 07000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 81566b39931f91f4ca6f33d0604f174a, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Safety Shoes
+    allocation: 07000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: d2cc4953d0dfc9840925133b63d3b3ae, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Welding Gloves Long
+    allocation: 06000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: b68d48aafca3be240af05558f5e15341, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Welding Gloves Long
+    allocation: 06000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: a31bfaff11de26347a91f795de8d729b, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Welding Gloves Short
+    allocation: 06000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: eb0e342bf2964a940b92e04f07d0d497, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Welding Gloves Short
+    allocation: 06000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: da37e19a74a07cb488e51dd14ad2c2ba, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Welding Helmet
+    allocation: 06000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: c18fb7359116b2349996b464e98d0eab, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Welding Helmet
+    allocation: 06000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: 9f01c599ee179d8489be41ef2423e461, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Lifevest
+    allocation: 01000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100000, guid: d243434244db47640bc20382c530191a, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Lifevest
+    allocation: 01000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100000, guid: d243434244db47640bc20382c530191a, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: General Working Gloves
+    allocation: 06000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100352, guid: aa0f330a64801ed4a85d0961e6e2032a, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: General Working Gloves
+    allocation: 06000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100326, guid: b3fdc92a44548204b8b44d43a4d94880, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Half-mask
+    allocation: 05000000
+    gender: 0
+    conditionVariants:
+    - item: {fileID: 100328, guid: 051128a91e931af42ad67e95071e36f7, type: 3}
+      condition: 0
+      equipped: 0
+  - setName: Half-mask
+    allocation: 05000000
+    gender: 1
+    conditionVariants:
+    - item: {fileID: 100328, guid: de7c936a277b556438e03bca74aa5a92, type: 3}
+      condition: 0
+      equipped: 0
+  defaultStartingItems: []
+  femaleHumanModels:
+  - {fileID: 1787993059352632, guid: 5a211ade96a1cfb4e916b186cd31c558, type: 3}
+  - {fileID: 1076498467525642, guid: c45bf5122f4b02845b20f85bab3041c5, type: 3}
+  - {fileID: 1218495284149850, guid: 445c12d84883c5e419618c9b7bb740cd, type: 3}
+  - {fileID: 1682183576428846, guid: e97ac7a63463b494282a25d89deb54bc, type: 3}
+  maleHumanModels:
+  - {fileID: 59406049759666116, guid: e0becf5cfd05a2545a30517e2bb3cd59, type: 3}
+  - {fileID: 5412277812372299536, guid: f9030c56920ddbf4182b35da9fe03187, type: 3}
+  - {fileID: 2231301622606878589, guid: 5a591d6b8bbc7c246a441e28834976c1, type: 3}
+  - {fileID: 1103794900928176631, guid: 821016547f6a6d843a27aa28d20d671d, type: 3}
