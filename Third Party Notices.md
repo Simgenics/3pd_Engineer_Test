@@ -1,1 +1,2 @@
-this is for the third party lecal and licine locations 
+this is for the third party legal and license locations
+
