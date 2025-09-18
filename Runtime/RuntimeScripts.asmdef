@@ -16,7 +16,7 @@
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
-    "precompiledReferences": [],
+    "precompiledReferences": ["Engineer Station Runtime.dll"],
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
