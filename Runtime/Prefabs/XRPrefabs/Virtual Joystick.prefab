@@ -250,7 +250,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &3828452366988078234
@@ -2001,8 +2001,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5715590235416877247}
-  - component: {fileID: 1361255346793376833}
-  - component: {fileID: 2555849574644990325}
+  - component: {fileID: 107211633239474955}
+  - component: {fileID: 547558240700214255}
   m_Layer: 7
   m_Name: Virtual Joystick
   m_TagString: Untagged
@@ -2029,7 +2029,7 @@ Transform:
   - {fileID: 5998312990819860074}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1361255346793376833
+--- !u!114 &107211633239474955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2038,7 +2038,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7713221075021699506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f843ec593380ef14ca63f8888567a1c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 49f332997a2ae7a4d95d83a0efba5b04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 0}
@@ -2050,7 +2050,7 @@ MonoBehaviour:
   m_ForwardSource: {fileID: 0}
   joystick: {fileID: 4182945485654440893}
   joystickHome: {fileID: 5998312990819860074}
---- !u!114 &2555849574644990325
+--- !u!114 &547558240700214255
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7713221075021699506}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 867d6bb95a7e92342bb55c6f4dea405b, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c7c233a653b7a245bffe4e3d3027c3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_System: {fileID: 0}

@@ -5,3 +5,5 @@
 
 0.0.95 removed XR Hands and XR toolkit samples
 
+0.0.96 fixed virtual joystick
+
