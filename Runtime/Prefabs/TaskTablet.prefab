@@ -2502,8 +2502,6 @@ GameObject:
   - component: {fileID: 5090563553189491560}
   - component: {fileID: 7802825825672733914}
   - component: {fileID: 2126995070325646558}
-  - component: {fileID: 3497092243933871638}
-  - component: {fileID: 5988871717370236506}
   m_Layer: 0
   m_Name: TaskTablet
   m_TagString: Untagged
@@ -2600,45 +2598,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.012719157, y: 0.014464443, z: 0.02}
   m_Center: {x: 0.016359577, y: 0.000004117377, z: 0}
---- !u!114 &3497092243933871638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3214248443650274955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ce3697eec5ec7249a4e0431b9b97ca3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  entryParent: {fileID: 2274226454694498631}
-  reportObject: {fileID: 1330237143175392518}
-  reportEntryParent: {fileID: 4090074513196299011}
-  oddReportEntryColor: {r: 0.91372555, g: 0.91372555, b: 0.91372555, a: 1}
-  evenReportEntryColor: {r: 0.7960785, g: 0.7960785, b: 0.7960785, a: 1}
-  totalScoreObject: {fileID: 7536816117633036735}
-  totalScoreText: {fileID: 2465059508912963401}
---- !u!114 &5988871717370236506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3214248443650274955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97348f32cc548ae48a6d05f30d89f47c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stateObjects:
-  - {fileID: 324434407057508186}
-  CurrentState:
-    index: 0
-    name: 
-  interactionAffordanceRenderer: {fileID: 7802825825672733914}
-  pivotPoint: {fileID: 0}
-  setFirstStateOnStart: 1
 --- !u!1 &3237018180133080787
 GameObject:
   m_ObjectHideFlags: 0
@@ -8269,17 +8228,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2ed30b28ceea5941a99e33481b65f34, type: 3}
---- !u!114 &324434407057508186 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3370369566913416668, guid: d2ed30b28ceea5941a99e33481b65f34, type: 3}
-  m_PrefabInstance: {fileID: 3045957392756542086}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: feddc5aa4307f7c4e9319540cb3c15b5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &3312748855845433434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 557414548341340892, guid: d2ed30b28ceea5941a99e33481b65f34, type: 3}

@@ -33,7 +33,6 @@ RectTransform:
   m_Children:
   - {fileID: 522791157863482228}
   m_Father: {fileID: 522791158069347509}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -158,7 +157,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 522791158069347509}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -293,7 +291,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 522791158069347509}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -409,7 +406,7 @@ GameObject:
   - component: {fileID: 522791157573024429}
   - component: {fileID: 522791157573024428}
   - component: {fileID: 522791157573024427}
-  - component: {fileID: 36159933519147044}
+  - component: {fileID: 578299086891510243}
   m_Layer: 5
   m_Name: 'UIDownload '
   m_TagString: Untagged
@@ -431,7 +428,6 @@ RectTransform:
   m_Children:
   - {fileID: 522791158069347509}
   m_Father: {fileID: 522791158093363037}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -455,7 +451,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -499,7 +497,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &36159933519147044
+--- !u!114 &578299086891510243
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -508,13 +506,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 522791157573024425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1484e5366cda1844d9f9079188bced3f, type: 3}
+  m_Script: {fileID: -1360712529, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollbar: {fileID: 522791156688135003}
-  textPercentage: {fileID: 522791156727992603}
-  textSize: {fileID: 522791156701201015}
-  textSizeTotal: {fileID: 522791158363762624}
 --- !u!1 &522791157863482227
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +539,6 @@ RectTransform:
   m_Children:
   - {fileID: 522791158562713359}
   m_Father: {fileID: 522791156688135002}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -587,7 +580,6 @@ RectTransform:
   - {fileID: 522791156701201014}
   - {fileID: 522791158363762626}
   m_Father: {fileID: 522791157573024430}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -641,7 +633,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 522791158093363037}
-  - component: {fileID: 522791158093363036}
+  - component: {fileID: 8593176190479428414}
   m_Layer: 0
   m_Name: AssetLoader
   m_TagString: Untagged
@@ -656,6 +648,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 522791158093363035}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -663,9 +656,8 @@ Transform:
   m_Children:
   - {fileID: 522791157573024430}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &522791158093363036
+--- !u!114 &8593176190479428414
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -674,13 +666,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 522791158093363035}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6f0fce11680c9b479ffbe570fed91a6, type: 3}
+  m_Script: {fileID: 1712384676, guid: a7fb078c7fe56a845a72b03d52499bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cloudAssets: 1
   localAssets: C:\Projects\3DPact\AssetBundles
-  storageConfig: {fileID: 11400000, guid: cac8651b47154d24ea78f781c0ce6769, type: 2}
+  storageConfig: {fileID: 0}
   storeTextures: 0
+  currentlyLoadedBundleScene: 
 --- !u!1 &522791158363762687
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,7 +705,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 522791158069347509}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -847,7 +839,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 522791157863482228}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
