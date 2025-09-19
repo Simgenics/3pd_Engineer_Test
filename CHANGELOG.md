@@ -7,3 +7,5 @@
 
 0.0.96 fixed virtual joystick
 
+0.0.97 fixed folder for StartUp prefab
+
