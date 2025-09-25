@@ -1,3 +1,4 @@
 {
 	"name": "EditorScripts"
+        "precompiledReferences": ["Engineer Station Editor.dll"]
 }
